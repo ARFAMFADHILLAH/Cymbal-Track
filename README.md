@@ -1,19 +1,16 @@
 # 🌍 Cymbal-Track
 
-Aplikasi pelacak lokasi *real-time* berbasis web yang dibangun dengan Google Maps API dan Firebase. Proyek ini dirancang untuk memantau koordinat lokasi secara langsung menggunakan *Geolocation API* browser.
-
-
+Aplikasi pelacak lokasi *real-time* berbasis web yang dikembangkan oleh seorang **Google Maps Platform Innovator** dan **Google Cloud Innovator**. Aplikasi ini dirancang untuk memantau koordinat lokasi secara langsung menggunakan Google Maps API dan teknologi *Geolocation* modern.
 
 ## 🚀 Fitur Utama
-* **Peta Interaktif:** Menampilkan peta Google Maps dengan penanda lokasi terkini.
+* **Peta Interaktif:** Implementasi `AdvancedMarkerElement` untuk visualisasi lokasi yang presisi.
 * **Tracking Real-time:** Memanfaatkan `navigator.geolocation.watchPosition` untuk memantau pergerakan pengguna secara *live*.
-* **Advanced Markers:** Menggunakan `AdvancedMarkerElement` untuk performa peta yang optimal.
-* **Cloud Deployment:** Di-hosting secara *online* melalui Firebase Hosting.
+* **Cloud-Native:** Di-hosting dengan infrastruktur **Google Cloud Platform** melalui Firebase Hosting.
 
 ## 🛠 Teknologi yang Digunakan
 * **Frontend:** HTML5, CSS3, JavaScript (ES6 Modules).
-* **Maps:** Google Maps JavaScript API (Maps & Marker libraries).
-* **Backend/Deployment:** Firebase Hosting.
+* **Maps API:** Google Maps JavaScript API (Maps & Marker libraries).
+* **Cloud Infrastructure:** Firebase Hosting (Google Cloud Platform).
 * **Data:** Browser Geolocation API.
 
 ## 📂 Struktur Folder
