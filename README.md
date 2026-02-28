@@ -1,6 +1,6 @@
 # 🌍 Cymbal-Track
 
-Aplikasi pelacak lokasi *real-time* berbasis web yang dikembangkan oleh seorang **Google Maps Platform Innovator** dan **Google Cloud Innovator**. Aplikasi ini dirancang untuk memantau koordinat lokasi secara langsung menggunakan Google Maps API dan teknologi *Geolocation* modern.
+Aplikasi pelacak lokasi *real-time* berbasis web yang dikembangkan oleh Arfa | **Google Maps Platform Innovator** dan **Google Cloud Innovator**. Aplikasi ini dirancang untuk memantau koordinat lokasi secara langsung menggunakan Google Maps API dan teknologi *Geolocation* modern.
 
 ## 🚀 Fitur Utama
 * **Peta Interaktif:** Implementasi `AdvancedMarkerElement` untuk visualisasi lokasi yang presisi.
@@ -22,3 +22,31 @@ Cymbal-Track/
 │   └── app.js        # Logika utama (Peta & GPS)
 ├── firebase.json     # Konfigurasi hosting Firebase
 └── README.md         # Dokumentasi proyek
+```
+
+## ⚙️ Cara Menjalankan Secara Lokal
+Pastikan Anda memiliki Node.js terinstal.
+
+Instal Firebase CLI: npm install -g firebase-tools
+
+Masuk ke direktori proyek dan jalankan:
+
+```text
+Bash
+firebase serve
+```
+
+Buka http://localhost:5000 di browser Anda.
+
+Deployment
+Aplikasi ini di-deploy menggunakan Firebase Hosting. Untuk memperbarui aplikasi ke server, cukup jalankan perintah:
+
+```text
+Bash
+firebase deploy
+```
+
+Dikembangkan oleh Arfa, Google Maps Platform Innovator & Google Cloud Innovator.
+
+
+
