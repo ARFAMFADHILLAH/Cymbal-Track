@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cymbal-Track</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="map"></div>
+
+   <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXDKnqK7GqZEOcctRJJ5cxgAePl8obknI&loading=async&libraries=marker"></script>
+
+<script type="module">
+    import "./app.js"; 
+    
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            if (typeof window.initMap === 'function') {
+                window.initMap();
+            }
+        }, 500);
+    });
+</script>
+</body>
+</html>
