@@ -31,8 +31,9 @@ Instal Firebase CLI: npm install -g firebase-tools
 
 Masuk ke direktori proyek dan jalankan:
 
-```text
 Bash
+
+```text
 firebase serve
 ```
 
@@ -41,8 +42,9 @@ Buka http://localhost:5000 di browser Anda.
 Deployment
 Aplikasi ini di-deploy menggunakan Firebase Hosting. Untuk memperbarui aplikasi ke server, cukup jalankan perintah:
 
-```text
 Bash
+
+```text
 firebase deploy
 ```
 
